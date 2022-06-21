@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav__item {
+    transition: .3s linear;
+}
+
+.nav__item:hover {
+    text-shadow: 0px 0px 20px green;
+    transition: .2s linear;
+    padding: 4px;
+}
+
+.nav__link {
+    color: black !important;
+    transition: .3s linear;
+}
+
+.nav__link:hover {
+    color: green !important;
+    transition: .3s linear;
+}
+
+.nav__sel {
+    width: 56px;
+    height: 28px;
+    transition: .2s linear;
+}
+
+.nav__sel:hover {
+    background: green !important;
+    transition: .2s linear;
+    border-radius: 4px;
+    border: none;
+}
+
+/* === header finished */
+
+/* === main start === */
+
+.prof__btn {
+    background: green !important;
+    width: 300px;
+    height: 60px;
+    color: white;
+    transition: .2s linear;
+}
+
+.prof__btn:hover {
+    color: white !important;
+    background: green;
+    box-shadow: 0px 0px 10px green;
+    text-shadow: 0px 0px 10px white;
+    transition: .2s linear;
+}
+
+/* === 1-part finish */
+
+/* 2-part started */
+
+.ourduty__text {
+    width: 513px;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.ourduty__btn {
+    background: green !important;
+    color: white;
+    width: 300px;
+    height: 60px;
+    transition: .2s linear;
+}
+
+.ourduty__btn:hover {
+    color: white;
+    background: green !important;
+    box-shadow: 0px 0px 10px green;
+    text-shadow: 0px 0px 10px white;
+    transition: .2s linear;
+}
+
+/* 2-part finished */
+
+/* part-3 started */
+
+.goods {
+    margin-top: 120px !important;
+}
+
+.goods__text {
+    margin-bottom: 120px;
+}
+
+.goods__balon-nasos p {
+    width: 219px;
+}
+
+.goods__btn {
+    width: 300px !important;
+    height: 60px !important;
+    border-radius: 4px;
+    transition: .2s linear;
+}
+
+
+.goods__btn:hover {
+    text-shadow: 0px 0px 10px white;
+    box-shadow: 0px 0px 10px seagreen;
+    transition: .2s linear;
+}
+
+.goods__nasos-turba p {
+    width: 250px;
+}
+
+.goods__question {
+    height: 233px;
+    margin-top: 125px;
+    margin-bottom: 130px;
+    box-shadow: 0px 4px 63px rgba(165, 165, 165, 0.25);
+    border-radius: 10px;
+}
+
+.goods__question p {
+    width: 410px;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #000;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    border-color: #000 !important;
+}
+
+.nav-hov {
+    transition: .5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.nav-hov:hover {
+    font-size: 25px;
+    transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* part-3 finished */
+/* === main fineshed === */
+
+/* === statred footer === */
+
+
+
+.footer__texts {
+    cursor: pointer;
+}
+
+.footer__links p {
+    color: black;
+    transition: .2s linear;
+}
+
+.footer__links p:hover {
+    color: #147E45;
+    text-shadow: 0px 0px 10px #147E45;
+    cursor: pointer;
+}

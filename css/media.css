@@ -1,0 +1,72 @@
+@media (max-width:575px){
+    .ourduty__text{
+        width: 300px !important;
+    }
+
+    .ourduty__img{
+        width: 300px;
+    }
+}
+
+@media(max-width:991px){
+    .goods__question{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:767px){
+    .footer__content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media(max-width:930px){
+    .goods__balon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .goods__balon-nasos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .goods__turba{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .goods__nasos-turba{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:444px){
+    .goods__question{
+        text-align: center;
+    }
+
+    .goods__btn{
+        width: 200px !important;
+    }
+
+    .goods__question p{
+        width: 300px !important;
+    }
+}
